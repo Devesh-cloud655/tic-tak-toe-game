@@ -1,2 +1,35 @@
 # tic-tak-toe-game
 A simple and interactive Tic-Tac-Toe game built using HTML, CSS, and JavaScript. 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tik tac toe game</title>
+    <link rel="stylesheet"href="t.css">
+</head>
+<body>
+    <div class="message-cont hide">
+        <p id="msg">Winner!</p>
+        <button id="new-btn">New Game!</button>
+    </div>
+    <main>
+  <h1>tic tac toe</h1>
+  <div class="container">
+  <div class="game">
+    <button class="box"></button>
+    <button class="box"></button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+    <button class="box">  </button>
+  </div>
+  </div>
+  <button id="reset">reset-button</button>
+   </main>
+    <script src="t.js"></script>
+</body>
+</html>
